@@ -16,8 +16,9 @@ function makeid() {
 	 
     }  
 	
-    document.getElementById("randomString").innerHTML = result; 
     
+    document.getElementById("randomString").innerHTML = result; 
+
     document.getElementById("randomNumber").innerHTML = result2;
 	
 	 
