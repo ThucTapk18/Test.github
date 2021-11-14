@@ -1,3 +1,15 @@
+*{
+    margin: 0;
+    padding: auto;
+}
+.form-main{
+    background-image: url('./hinhwibu.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100%;
+    text-align:center;
+}
 #h1_coitainer{
     width: 100%;
     height: 30%;
@@ -23,12 +35,9 @@
     font-family: Candara;
     font-size: 22px;
     font-weight: bold;
-
     color: #461220;
     border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    float: left;
+    margin-left: 4px;
 }
 #textRandom{
     width: 425px;
@@ -43,4 +52,15 @@
     display: flex;
     justify-content: center;
     float: left;
+}
+#randomNumber{
+    width: 425px;
+    height: 50px;
+    margin-left: 461px;
+    font-family: Candara;
+    font-size: 22px;
+    font-weight: bold;
+    color: #461220;
+    border-radius: 5px;
+    margin-left: 4px;
 }

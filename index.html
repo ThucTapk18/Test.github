@@ -8,9 +8,9 @@
 
 
 
-<body style="background-image: url('hinhwibu.jpeg'); width: 50%; height: 50%; font-size: 100%;">
+<body>
     
-<form align-item="center">
+<form class="form-main">
 <h1 id="h1_coitainer" style="color: midnightblue;">Random Chuỗi</h1>
 
 <div style="color: mediumblue;">Nhập độ dài chuỗi từ 1 đến 50
@@ -19,14 +19,14 @@
 </div>
 
 <div>
-<input type="button" value="random" onclick="makeid()">
-<div>Random chuỗi:<div class="row" id="randomString" name="randomString" style="color:green"></div>
+<input type="button" value="random" onclick="makeid()"> <br/>
+<span>Random chuỗi:<span class="row" id="randomString" name="randomString" style="color:green"></span><br/>
 <input type="button" value="copy" onclick="copyToClipboard('randomString')">
-</div>
-<div>
+</span><br/>
+<span>
 Random số: 
-<div class="row" id="randomNumber" name="randomNumber" style="color:green"></div>
-</div>
+<span class="row" id="randomNumber" name="randomNumber" style="color:green"></span>
+</span>
 </div>
 <input type="button" value="copy" onclick="copyToClipboard('randomNumber')">
 </form>
