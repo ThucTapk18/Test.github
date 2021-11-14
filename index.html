@@ -20,13 +20,15 @@
 
 <div>
 <input type="button" value="random" onclick="makeid()">
-<div>Random chuỗi:<div class="row" id="randomString" name="randomString" style="color:green"> </div></div>
+<div>Random chuỗi:<div class="row" id="randomString" name="randomString" style="color:green"></div>
+<input type="button" value="copy" onclick="copyToClipboard('randomString')">
+</div>
 <div>
 Random số: 
 <div class="row" id="randomNumber" name="randomNumber" style="color:green"></div>
 </div>
 </div>
-<input type="button" value="copy" onclick="copyToClipboard('randomString')">
+<input type="button" value="copy" onclick="copyToClipboard('randomNumber')">
 </form>
 
 </html>
