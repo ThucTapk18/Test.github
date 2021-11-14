@@ -23,7 +23,7 @@ function makeid() {
         document.getElementById("randomNumber").innerHTML = result2;
     }
     else{
-        alert("Bạn chỉ được nhập số từ 1 đến 50")
+        alert("Bạn chỉ được nhập số từ 1 đến 50");
     }
 	
 	 
